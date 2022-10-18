@@ -1,7 +1,7 @@
 package hackerrank;
 
 import java.util.ArrayList;
-import java.util.Iterator;
+
 /*
  * Diagonal differences of 2d Arraylist 
  * */
@@ -40,10 +40,7 @@ public class DiagonalDifferences {
 		
 		System.out.println("---------------------\n");
 		
-		for (Iterator iterator = matrix.iterator(); iterator.hasNext();) {
-			ArrayList<Integer> arrayList = (ArrayList<Integer>) iterator.next();
-			System.out.println(arrayList);
-		}
+	
 		int sumOne = 0;
 		int sumTwo = 0;
 		int colIndex = 2;

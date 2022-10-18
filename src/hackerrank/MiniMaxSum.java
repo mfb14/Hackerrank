@@ -6,6 +6,9 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
+/*
+ * Write Min and max element of array 
+ * */
 public class MiniMaxSum {
 
 	public static void main(String[] args) {

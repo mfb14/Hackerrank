@@ -5,6 +5,9 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+/*
+ * How many of the largest number are in the array? 
+ * */
 public class BirthdayCandles {
 
 	public static void main(String[] args) {

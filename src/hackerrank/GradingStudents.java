@@ -3,7 +3,9 @@ package hackerrank;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
+/*
+ * Grading Student problem
+ * */
 public class GradingStudents {
 
 	public static void main(String[] args) {
@@ -17,6 +19,7 @@ public class GradingStudents {
 			}
 			else {
 				if(g%5>2) {
+					//This provides to round to the nearest power of 5 
 					g = (g+4)/5*5;
 					grades.add(g);
 				}

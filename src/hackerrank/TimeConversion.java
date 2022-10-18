@@ -1,9 +1,12 @@
 package hackerrank;
 
-import java.util.Iterator;
+
 import java.util.regex.Pattern;
 
-
+/*
+ * Java String Time Conversion Solution
+ * 
+ * */
 
 public class TimeConversion {
 

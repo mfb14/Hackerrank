@@ -42,10 +42,7 @@ public class Solution {
 	        }
 	        
 	      
-	        for (Integer integer : outputList) {
-	            System.out.print(integer+" ");
-	      }  
-	     
+	      outputList.forEach(num -> System.out.print(num));
 	        
 	    }
 	       

@@ -12,7 +12,7 @@ import org.w3c.dom.css.Counter;
  * @author Mustafa Furkan BİLEN <mustafafurkanbilen@gmail.com>
  * @since Nov 13, 2022 5:52:05 AM
  */
-public class TheBirthDayBar {
+public class SubArrayDivision {
 
     /**
      *  @param  INTEGER_ARRAY s the numbers on each of the squares of chocolate

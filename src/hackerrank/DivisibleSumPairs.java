@@ -6,13 +6,14 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * 
+ * @link https://www.hackerrank.com/challenges/divisible-sum-pairs
  * @author Mustafa Furkan BİLEN <mustafafurkanbilen@gmail.com>
  * @since Nov 14, 2022 5:16:46 AM
  */
 public class DivisibleSumPairs {
 
     public static int divisibleSumPairs(int n, int k, List<Integer> ar) {
+    //This is O(n^2) sulution
     int count =0;
     for (int i=0;i<ar.size();i++) {
 		for(int j=i+1;j<ar.size();j++) {
@@ -21,7 +22,9 @@ public class DivisibleSumPairs {
 		}
 	}
     return count;
-
+    
+    
+    
     }
 	public static void main(String[] args) {
 		

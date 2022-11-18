@@ -20,7 +20,7 @@ public class JumpingOnTheClouds {
     			jumpCount++;
     			i+=2;
     		}
-    		else /*if ((i+1)<c.size()&&c.get(i+1)==0)*/ {
+    		else if ((i+1)<c.size()&&c.get(i+1)==0) {
 				jumpCount++;
 				i++;
 			}

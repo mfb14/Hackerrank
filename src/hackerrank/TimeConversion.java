@@ -51,12 +51,6 @@ public class TimeConversion {
 		}
 		
 		
-	
-		/*
-		int j = 123456;
-		String x = Integer.toString(j);
-		x = x.substring(0, 2) + ":" + x.substring(2, 4)+":"+x.substring(4,6);
-		System.out.println(x);*/
 	}
 	
 }

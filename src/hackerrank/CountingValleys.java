@@ -17,19 +17,19 @@ public class CountingValleys {
         	 if(path.charAt(i)=='D') {
         		 m--;
         		 movements[i]=m;
-        		 if(i>0&&movements[i-1]<0&&movements[i]==0)valleyCount++;
+        		 if(i>0&&movements[i-1]<0&&movements[i]==0) valleyCount++;
         		 
         	 }
         	 else {
         		 m++;
         		 movements[i]=m;      		
-        		 if(i>0&&movements[i-1]<0&&movements[i]==0)valleyCount++;		 
+        		 if(i>0&&movements[i-1]<0&&movements[i]==0) valleyCount++;		 
 			}
         }
         return valleyCount;
     }
 	public static void main(String[] args) {
-		System.out.println(countingValleys(100, "DDUDUDDUDDUDDUUUUDUDDDUUDDUUDDDUUDDUUUUUUDUDDDDUDDUUDUUDUDUUUDUUUUUDDUDDDDUDDUDDDDUUUUDUUDUUDUUDUDDD"));
+		System.out.println(countingValleys(100,"DDUDUDDUDDUDDUUUUDUDDDUUDDUUDDDUUDDUUUUUUDUDDDDUDDUUDUUDUDUUUDUUUUUDDUDDDDUDDUDDDDUUUUDUUDUUDUUDUDDD"));
 		System.out.println(countingValleys(12, "DDUUDDUDUUUD"));
 
 	}

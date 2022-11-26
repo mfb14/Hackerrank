@@ -20,7 +20,6 @@ public class BudgetShopping {
 	 * */
 	public static int budgetShopping(int n, List<Integer> bundleQuantities, List<Integer>bundleCosts) {
 		//FIXME If budget is smaller than 'n' look for other optian (Need to be refactor) 
-		
 		int budget;
 		List<Integer> l = new ArrayList<>();
 		for (int i = 0; i < bundleCosts.size(); i++) {

@@ -23,8 +23,6 @@ public class DivisibleSumPairs {
 	}
     return count;
     
-    
-    
     }
 	public static void main(String[] args) {
 		

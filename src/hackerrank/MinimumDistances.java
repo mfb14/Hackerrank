@@ -3,11 +3,9 @@ package hackerrank;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.NoSuchElementException;
 
 /**
  * @link https://www.hackerrank.com/challenges/minimum-distances
@@ -30,7 +28,7 @@ public class MinimumDistances {
 					
 				}
         }
-       return list.stream().mapToInt(z->z).min().orElseThrow(NoSuchElementException::new);
+       return list.stream().mapToInt(z->z).min().orElse(-1);
     }
 
 	public static void main(String[] args) {

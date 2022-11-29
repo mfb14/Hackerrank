@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Find whic element pairs sum is equal to given sum
+ * Find which element pairs sum is equal to given sum
  * @author Mustafa Furkan BİLEN <mustafafurkanbilen@gmail.com>
  * @since Nov 26, 2022 2:35:37 PM
  */

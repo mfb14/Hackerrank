@@ -13,7 +13,7 @@ import java.util.List;
  */
 public class PickingNumbers {
 
-    public static void pickingNumbers(List<Integer> a) {
+    public static int pickingNumbers(List<Integer> a) {
     	
     	int firstIndex=0;
     	int secondIndex=1;
@@ -33,8 +33,8 @@ public class PickingNumbers {
     		firstIndex++;
     		
     	}
-    	System.out.println(maxLengthOfSubArray);
-    }
+    		return maxLengthOfSubArray; 
+		}
 	public static void main(String[] args) {
 		
 		pickingNumbers(new ArrayList<Integer>(Arrays.asList(4,6,5,3,3,1)));

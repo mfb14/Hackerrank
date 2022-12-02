@@ -27,10 +27,8 @@ public class EqualizeArray {
 				hm.replace(x, hm.get(x)+1);
 			}
         }
-        int count=0;
-       for(Integer x:hm.values())
-    	   if (x<2)
-    		   count++;	   
+        
+   
       int a = Collections.max(hm.values());
       
       return arr.size()-a;

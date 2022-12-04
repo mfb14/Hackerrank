@@ -13,9 +13,10 @@ public class FindDigits {
     	
     	int digitCounter = 0;
     	int digit;
+    	int number = n;
     	while(n>0) {
     		digit=n%10;
-    		if(digit!=0&&n%digit==0)
+    		if(digit!=0&&number%digit==0)
     			digitCounter++;
     		n=n/10;
     	}

@@ -20,6 +20,7 @@ public class DesignerPdfViewer {
     	Map<Character,Integer> words = new HashMap<>();
     	for(int i=0;i<length;i++) {
     		if(word.charAt(i)!=' ')
+    			// The 'a' starts in 97 in ascii code 
     			words.put(word.charAt(i),h.get(word.charAt(i)-97));
     	}
     	
@@ -33,7 +34,7 @@ public class DesignerPdfViewer {
 		
 		System.out.println(designerPdfViewer(l, "abc"));
 		
-		int a = 'a';
+		
 		
 		
 	}

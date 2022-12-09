@@ -3,10 +3,18 @@ package hackerrank;
 public class QuadraticEquation {
     public static Roots findRoots(double a, double b, double c) {
     	double determ = Math.sqrt((b*b)-4*a*c);
-        double x1 = (determ-b)/(2*a);
-        double x2 = (determ+b)/(2*a);
+    	double x1,x2;
+    	if(determ>0) {
+            x1 = (-b-determ)/(2*a);
+            x2 = (-b+determ)/(2*a);
+            return new Roots(x2, x1);            
+    	}
     	
-        return new Roots(x2, x1);
+    		x1=x2=-b/(2*a);
+    		return new Roots(x1, x2);
+    	
+    	
+    	
         
     }
     

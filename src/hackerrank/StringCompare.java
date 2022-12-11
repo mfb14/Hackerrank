@@ -19,7 +19,7 @@ public class StringCompare {
 		String smallest = str.substring(0,k);
 		String largest = str.substring(0,k);
 		
-		for(int i=0;i<str.length()-k;i++) {
+		for(int i=0;i<=str.length()-k;i++) {
 			String temp = str.substring(i,i+k);
 			if(smallest.compareTo(temp)>0)
 				smallest=temp;
